@@ -1,0 +1,21 @@
+{
+  "project": "Primoris AI Initiatives",
+  "version": "1.0.0",
+  "governance_standard": "ISO/IEC 42001 (AI Management)",
+  "prompts": [
+    {
+      "id": "PRMT-001",
+      "objective": "Risk Extraction from Field Reports",
+      "system_role": "Senior Safety Solutions Analyst",
+      "prompt_text": "Extract all mentions of 'near-miss' or 'safety hazard' from the following text. Categorize them by severity (Low, Medium, High). Output in JSON format.",
+      "technique": "Zero-shot extraction with structured output"
+    },
+    {
+      "id": "PRMT-002",
+      "objective": "Executive Summary Generation",
+      "system_role": "Strategic Communications Expert",
+      "prompt_text": "Summarize the project status in 3 bullet points. Focus specifically on budget variance and milestone delays. Avoid jargon.",
+      "technique": "Chain-of-Thought (CoT) Summarization"
+    }
+  ]
+}
